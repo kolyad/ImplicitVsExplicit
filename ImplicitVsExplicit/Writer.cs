@@ -8,12 +8,12 @@ namespace ImplicitVsExplicit
     {
         public void Write()
         {
-            Console.WriteLine("Explicit realization");
+            Console.WriteLine("Implicit realization");
         }
         
         void IWriterInterface.Write()
         {
-            Console.WriteLine("Implicit realization");
+            Console.WriteLine("Explicit realization");
         }
     }
 }
